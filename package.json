@@ -1,0 +1,15 @@
+{
+	"name": "miusage-plugin",
+	"version": "1.0.0",
+	"description": "A WordPress plugin to fetch and display data from miusage.com.",
+	"main": "miusage-plugin.php",
+	"scripts": {
+		"build": "wp-scripts build",
+		"start": "wp-scripts start"
+	},
+	"author": "Your Name",
+	"license": "ISC",
+	"devDependencies": {
+		"@wordpress/scripts": "^24.0.0"
+	}
+}

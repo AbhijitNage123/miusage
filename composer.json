@@ -1,0 +1,13 @@
+{
+	"name": "yourname/miusage-plugin",
+	"description": "A WordPress plugin to fetch and display data from miusage.com.",
+	"type": "wordpress-plugin",
+	"require": {
+		"php": ">=7.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"Miusage\\": "src/"
+		}
+	}
+}
